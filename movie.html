@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">MOVIE DATABASE</h1>
+    </div>
+    <div style="text-align: center;">
+        <button id="action-button" onclick="actionFunction()" style="background-color: green;">ACTION</button>
+        <button id="comedy-button" onclick="comedyFunction()" style="background-color: yellow;">COMEDY</button>
+        <button id="crime-button" onclick="crimeFunction()" style="background-color: skyblue;">CRIME</button>
+        <button id="romance-button" onclick="romanceFunction()" style="background-color: red;">ROMANCE</button>
+        <button id="movie-button" onclick="getMovies()" style="background-color: pink;">MOVIE</button>
+    </div>
+    <div id="container"></div>
+    <script src="movie.js"></script>
+</body>
+</html>

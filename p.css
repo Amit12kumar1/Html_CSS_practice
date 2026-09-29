@@ -1,0 +1,19 @@
+.hotpink_para{
+	color: hotpink;
+}
+
+.red_para{
+	color: red;
+}
+
+.card {
+padding: 1rem;
+border: 1px solid black;
+margin: 1rem;
+}
+
+.card-body{
+
+	background: red;
+
+}

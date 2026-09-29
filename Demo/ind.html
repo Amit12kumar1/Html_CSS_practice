@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Doc</title>
+    <style>
+        .btn{
+            padding: 10px 15px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Count : <span id="cnt">0</span></h1>
+    <button id="add" class="btn">Add</button>
+    <button id="sub" class="btn">Sub</button>
+    <script>
+      var cntele = document.getElementById("cnt");
+      var addele = document.getElementById("add");
+      var subele = document.getElementById("sub");
+
+      addele.addEventListener("click", function(){
+        let cval = Number(cntele.innerText)
+        cval += 1;
+        cntele.innerText = cval;
+      });
+      subele.addEventListener("click", function(){
+        let cval = Number(cntele.innerText)
+        cval -= 1;
+        cntele.innerText = cval;
+      });
+    </script>
+</body>
+</html>

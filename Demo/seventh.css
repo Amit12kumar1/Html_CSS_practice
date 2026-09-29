@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo1{
+    height: 60px;
+    width: 60px;
+    background-image:url(./Coding\ Age1_edited_edited.webp) ;
+    background-position: center;
+    background-size: cover;
+}
+.name{
+    font-size: 30px;
+    color: brown;
+    font-weight: 700;
+    
+}
+a{
+    padding-right: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
